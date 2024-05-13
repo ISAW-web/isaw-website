@@ -11,6 +11,7 @@ jobs:
     - name: 📂 Sync files
       uses: SamKirkland/FTP-Deploy-Action@v4.3.5
       with:
-        server: http://66.199.141.100
+        server: 66.199.141.100
         username: isawclub
         password: ${{ secrets.ftp_password }}
+        server-dir: public_html/
