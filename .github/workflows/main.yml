@@ -16,6 +16,3 @@ jobs:
         username: ${{ secrets.ftp_username }}
         password: ${{ secrets.ftp_password }}
         server-dir: public_html/
-        protocol: sftp
-        port: 22
-        timeout: 300000
